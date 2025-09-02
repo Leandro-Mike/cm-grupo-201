@@ -16,6 +16,7 @@ body {
 /* variable del amarillo */
 :root {
     --amarillo-grupo201: #F2E200;
+    --ancho-footer: 65%;
 }
 
 
@@ -372,8 +373,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
-    width: 60%;
+    gap: 40px;
+    width: var(--ancho-footer);
     margin: 55px auto;
 
 }
@@ -389,6 +390,23 @@ footer {
     color: #f4f4f4;
 
 }
+
+#col > a > img {
+    width: 25px;
+    margin-right: 10px;
+    
+}
+
+#col a:hover img {
+    filter: brightness(0) invert(1); /* hace que la imagen se vea blanca */
+}
+
+
+#col > a {
+    display: flex;
+    align-items: center;
+}
+
 
 
 #col h4 {
@@ -431,7 +449,7 @@ footer {
 
     font-size: 14px;
 
-    width: 60%;
+    width: var(--ancho-footer);
     margin: auto;
 
     padding-top: 15px;
