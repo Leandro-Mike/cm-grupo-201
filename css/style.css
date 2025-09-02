@@ -327,7 +327,7 @@ font-weight: 600;
     /* color de la pista */
     border-radius: 10px;
     height: 8px !important;
-    width: 220px !important;
+    width: 350px !important;
     /* grosor */
     margin-top: 20px !important;
     max-width: 150px;
@@ -341,11 +341,11 @@ font-weight: 600;
 
 /* Barra que se mueve */
 .swiper-scrollbar-drag {
-    background: #ffcc00 !important;
-    width: 80px !important;
+    background: #F2E200 !important;
+    width: 75px !important;
     height: 14px !important;
     /* color del thumb */
-    border-radius: 4px !important;
+    border-radius: 1px !important;
     top: -4px !important;
 }
 
