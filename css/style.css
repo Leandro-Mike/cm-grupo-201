@@ -28,7 +28,9 @@ main {
     align-items: center;
 }
 
-/* HERO SECTION */
+/* ///////////////////////////////////////////// */
+/* ////////////// Estilos hero ////////////// */
+/* /////////////////////////////////////////// */
 
 .hero {
     display: flex;
@@ -139,9 +141,10 @@ main {
 
 
 
-/* CARD SECTION */
+/* ///////////////////////////////////////////// */
+/* ////////////// Estilos Historia ////////////// */
+/* /////////////////////////////////////////// */
 
-/* Sección de la card */
 .card__section {
     display: flex;
     justify-content: center;
