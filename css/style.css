@@ -42,7 +42,7 @@ main {
     gap: 5rem;
     min-height: 90vh;
     width: 100%;
-    background-image: url('/images/hero-grupo201.png');
+    background-image: url('../images/hero-grupo201.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -476,5 +476,10 @@ footer {
 
     .footer-column {
         text-align: center;
+    }
+
+    .subfooter {
+        flex-direction: column;
+        gap: 10px;
     }
 }
